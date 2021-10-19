@@ -1,0 +1,52 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ==========
+  ELEMENTS
+========== */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    color: #f9faf8;
+}
+
+/* ==========
+   LAYOUT
+========== */
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background: #1F2937;
+}
+
+.header-ctn {
+    width: 50vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.header-logo {
+    width: 200px;
+    height: 75px;
+    object-fit: cover;
+}
+
+.header-nav {
+    display: flex;
+    gap: 1rem;
+}
