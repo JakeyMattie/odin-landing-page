@@ -1,7 +1,7 @@
 body {
     box-sizing: border-box;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Century Gothic, Arial, Helvetica, sans-serif;
 }
 
 /* ==========
@@ -16,6 +16,19 @@ ul {
 
 li {
     color: #f9faf8;
+}
+
+li:hover {
+    color: #70b9db;
+    cursor: pointer;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    text-align: justify;
 }
 
 /* ==========
@@ -49,4 +62,27 @@ li {
 .header-nav {
     display: flex;
     gap: 1rem;
+}
+
+.about {
+    width: 50vw;
+    margin: 4rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-img {
+    width: 500px;
+    height: 270px;
+    object-fit: none;
+    object-position: 65% 55%;
+    flex-shrink: 0;
+}
+
+.about-text {
+    padding: 0 1rem;
+}
+
+.about-text > * {
+    color: #f9faf8;
 }
