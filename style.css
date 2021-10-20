@@ -25,6 +25,12 @@ li:hover {
 
 h1 {
     margin: 0;
+    font-size: 3rem;
+}
+
+h2 {
+    margin: 0;
+    font-size: 2rem;
 }
 
 p {
@@ -39,6 +45,8 @@ p {
     display: flex;
     flex-direction: column;
 }
+
+/* HEADER */
 
 .header {
     background: #1F2937;
@@ -64,15 +72,19 @@ p {
     gap: 1rem;
 }
 
+/* ABOUT */
+
 .about {
     width: 50vw;
     margin: 4rem auto;
     display: flex;
+    gap: 4rem;
     justify-content: space-between;
+    align-items: center;
 }
 
 .about-img {
-    width: 500px;
+    width: 450px;
     height: 270px;
     object-fit: none;
     object-position: 65% 55%;
@@ -80,9 +92,81 @@ p {
 }
 
 .about-text {
-    padding: 0 1rem;
+    padding: 0;
 }
 
 .about-text > * {
     color: #f9faf8;
+}
+
+/* CHARACTERS */
+
+.character {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+    gap: 2rem;
+}
+
+.character-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 1rem;
+}
+
+.character-card > p {
+    margin: 0;
+}
+
+.character-img {
+    width: 150px;
+    height: 150px;
+    object-fit: none;
+    border: 2px solid #1F2937;
+    border-radius: 25%;
+}
+
+.character-info {
+    display: flex;
+}
+
+.character-img.alphen {
+    object-position: 70% 10%;
+}
+
+.character-img.shionne {
+    object-position: 67.5% 12%;
+}
+
+.character-img.rinwell {
+    object-position: 42.5% 6%;
+}
+
+.character-img.law {
+    object-position: 50% 7%;
+}
+
+.character-img.kisara {
+    object-position: 37.5% 7.5%;
+}
+
+.character-img.dohalim {
+    object-position: 50% 11%;
+}
+
+/* QUOTE */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+.quote > * {
+    margin: 0;
 }
