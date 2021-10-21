@@ -14,11 +14,12 @@ ul {
     padding: 0;
 }
 
-li {
+a {
+    text-decoration: none;
     color: #f9faf8;
 }
 
-li:hover {
+a:hover {
     color: #70b9db;
     cursor: pointer;
 }
@@ -79,7 +80,7 @@ p {
 
 /* ABOUT */
 
-.about {
+#about {
     margin: 5rem auto;
     gap: 4rem;
     justify-content: space-between;
@@ -120,7 +121,7 @@ p {
 
 /* CHARACTERS */
 
-.character {
+#character {
     align-items: center;
     padding: 5rem 0;
     gap: 2rem;
@@ -174,7 +175,7 @@ p {
 
 /* QUOTE */
 
-.quote {
+#quote {
     align-items: center;
     background-color: #E5E7EB;
     padding: 5rem 0;
@@ -200,7 +201,7 @@ p {
 
 /* ACTION */
 
-.action {
+#action {
     padding: 5rem;
     align-items: center;
 }
