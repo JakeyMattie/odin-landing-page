@@ -99,6 +99,22 @@ p {
     color: #f9faf8;
 }
 
+.btn {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    color: #E5E7EB;
+    padding: 0.5rem 2rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background-color: #70b9db;
+    color: #1F2937;
+    cursor: pointer;
+}
+
 /* CHARACTERS */
 
 .character {
@@ -165,6 +181,7 @@ p {
     align-items: center;
     background-color: #E5E7EB;
     padding: 5rem 0;
+    gap: 4rem;
 }
 
 .quote-ctn {
@@ -172,15 +189,31 @@ p {
     width: 50vw;
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
 }
 
 .quote-text {
     font-size: 3rem;
     font-weight: 100;
+    text-align: center;
     margin: 0;
 }
 
 .quote-author {
     margin: 0;
     align-self: flex-end
+}
+
+/* FOOTER */
+
+.footer {
+    background: #1F2937;
+    display: flex;
+    padding: 2.5rem 0;
+}
+
+.footer p {
+    color: #E5E7EB;
+    margin: 0 auto;
+    font-size: 18px;
 }
